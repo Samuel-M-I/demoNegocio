@@ -90,3 +90,32 @@ header{
         color: white;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.carrusel{
+    width: 100vw;
+    overflow: hidden;
+    padding-top: 120px; /*ALterar para evitar sobreposcion*/
+}
+.carrusel ul {
+    display: flex;
+    list-style-type: none;
+    width: 300%;
+    transition: transform 0.6s ease-in-out;
+}
+.carrusel li {
+    width: 33.33%;
+}
+.carrusel img{
+    width: 100%;
+}
